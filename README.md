@@ -1,4 +1,4 @@
-# 🔒 PBKDF2 Hybrid Brute-Force & Encryption Suite
+# PBKDF2 Hybrid Brute-Force & Encryption Suite
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Cryptography](https://img.shields.io/badge/Library-Cryptography-green.svg)](https://cryptography.io/)
@@ -8,7 +8,7 @@ A high-performance Python suite for symmetric encryption, decryption, and multi-
 
 ---
 
-## 📌 Overview
+## Overview
 
 This repository demonstrates the practical security evaluation of low-entropy passwords against hybrid dictionary and combinatorial brute-force attacks, even when protected by Key Derivation Functions (KDFs) like **PBKDF2HMAC-SHA256** with **100,000 iterations**.
 
@@ -20,7 +20,7 @@ This repository demonstrates the practical security evaluation of low-entropy pa
 
 ---
 
-## 🛠️ Architecture & Technical Details
+## Architecture & Technical Details
 
 1. **Key Derivation**: `PBKDF2HMAC` using `SHA-256`, 32-byte key length, and **100,000 iterations**.
 2. **Authenticated Encryption**: `Fernet` specification ensuring confidentiality (AES-128-CBC) and integrity verification (HMAC-SHA256).
@@ -29,7 +29,7 @@ This repository demonstrates the practical security evaluation of low-entropy pa
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 .
@@ -42,7 +42,7 @@ This repository demonstrates the practical security evaluation of low-entropy pa
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -63,7 +63,7 @@ This repository demonstrates the practical security evaluation of low-entropy pa
 
 ---
 
-## 💻 Usage
+## Usage
 
 ### 1. Run the Hybrid Brute-Force Attack
 Executes the parallel attack against the hardcoded target ciphertext and salt:
@@ -85,6 +85,6 @@ python decrypt.py
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This repository was developed for educational purposes and academic research as part of a university cryptography laboratory exercise.
